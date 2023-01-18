@@ -1,7 +1,7 @@
 import React from "react";
 
 const BasketTotal = (props) => {
- let formatter = new Intl.NumberFormat ('en-GB', {
+ let form = new Intl.NumberFormat ('en-GB', {
     style: 'currency',
     currency: 'GBP'
  })
