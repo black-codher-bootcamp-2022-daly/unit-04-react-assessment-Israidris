@@ -4,7 +4,7 @@ export const Nav = (props) => {
   return (
     <div className="nav">
       <div className="nav_link">
-        <Link to="/Home">Home/Search</Link>
+        <Link to="/">Home/Search</Link>
       </div>
       <div className="nav_link">
         <Link to="/About.js">About</Link>

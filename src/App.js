@@ -119,7 +119,7 @@ return; }
   return (
     <Router>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About.js" element={<About />} />
           <Route path="/Basket" element={<BasketList />} />
         </Routes>
