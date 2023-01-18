@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+body {
+    font-family:"Urbanist", sans-serif;
+    background-color: white;
+    vertical-align: middle;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: "20px";
+    }
+    body {
+        font-size: "14px";
+        background-color: white;
+        color: #FFF 
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1025px) {
+    h1 {
+        font-size: "50px";
+    }
+
+    body {
+        font-size: "26px";
+        background-color: white;
+        color: #000
+    }
+}
+  
+.nav {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248))
+    
+}
+  
+.nav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+  
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+.nav_links a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.nav-right {
+    float: right;
+}
+      
+.nav_links a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+  }
+
+.nav_basket {
+  float: right;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#product-container {
+    text-align: left;
+    background: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248))
+}
+
+.list {
+    text-align: left;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#add-button {
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(150deg, pink 15%, purple 70%, white 94%);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    width: 70px;
+}
+
+.searchBar {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.submit-button {
+    background-color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.total {
+    background-color: pink;
+    font-weight: bold;
+}
